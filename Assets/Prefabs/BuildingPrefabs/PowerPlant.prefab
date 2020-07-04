@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3770223976164081880
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3770223976164081882}
+  - component: {fileID: 2671167566903756965}
+  m_Layer: 0
+  m_Name: PowerPlant
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3770223976164081882
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3770223976164081880}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.6888294, y: -0.71808517, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2671167566903756965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3770223976164081880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5004b1e60ebf0042a16ce10a2cc0716, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isSet: 0
+  column: 0
+  row: 0
+  InfoTextObject: {fileID: 0}
+  virtualBuildingPrefab: {fileID: 2626268065302142146, guid: 654c2260b2bfa5d4aa766ce281fad7b7,
+    type: 3}
+  spawnPoint: {fileID: 8744385899889670454, guid: 4332af6cb64d4ae4ab4f8d373d3f2490,
+    type: 3}
+  InfoImageObject: {fileID: 0}
+  cantBuildPrefab: {fileID: 1821988018309130574, guid: 88111602242621f4389d3e9d607abe13,
+    type: 3}
+  buildingType: PowerPlant
+  BuildingPieces: []
+  isSelected: 0

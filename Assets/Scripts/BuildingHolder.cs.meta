@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: f5004b1e60ebf0042a16ce10a2cc0716
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - virtualBuildingPrefab: {fileID: 2626268065302142146, guid: 654c2260b2bfa5d4aa766ce281fad7b7,
+      type: 3}
+  - spawnPoint: {fileID: 8744385899889670454, guid: 4332af6cb64d4ae4ab4f8d373d3f2490,
+      type: 3}
+  - InfoImageObject: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
